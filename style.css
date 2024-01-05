@@ -1,0 +1,180 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.main {
+      height: 100%;
+      width: 100%;
+      
+      position: relative;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border: 2px solid #dadada;
+    padding:  4vw;
+}
+
+.nav2 {
+
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.navbar i{
+    
+    font-weight: 800;
+}
+
+.nav2 h4{
+    font-size: 1.1vw;
+
+}
+.nav2 h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.nav2 button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+border-radius: 5px;
+font-weight: 600;
+align-items: center;
+display: flex;
+justify-content: center;
+box-shadow: -3px -3px 7px #ffffff42, 3px 3px 5px #000000ce;
+}
+
+.nav2 i{
+    display: none;
+    font-weight: 800;
+}
+
+.content {
+    height: calc(100% - 100px);
+    width: 100%;
+  /*  background-color: rgb(228, 233, 232); */
+    display: flex;
+    position: relative;
+
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 3vw;
+}
+
+.left h1 {
+    font-size: 4.2vw;
+    line-height: 4, 4vw;
+}
+.left span{
+    color: lightseagreen;
+}
+
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.content button{
+    font-size: 1.2vw;
+    padding: 0.7vw 1.3vw;
+    background-color:lightseagreen;
+    color: #fff;
+    border: none;
+border-radius: 5px;
+font-weight: 600;
+align-items: center;
+display: flex;
+justify-content: center;
+box-shadow: -3px -3px 7px #ffffff42, 3px 3px 5px #000000ce;
+}
+.right {
+    height: 90%;
+    width: 45%;
+  
+    
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+    margin-top: 5vw;
+}
+
+@media (max-width:600px) {
+    .navbar{
+        
+        color: #000000;
+        padding: 0 5vw;
+        height: 60px;
+    }
+
+    .navbar button{
+        display: none;
+    }
+
+.navbar i{
+    font-weight: 800;
+}
+.nav2 h4{
+    font-size: 4vw;
+    display: none;
+}
+.nav2 i{
+    display: block;
+}
+.content {
+    height: calc(100% - 60px);
+    flex-direction: column;
+}
+.left{
+    width: 100%;
+    height: 45%;
+}
+.right {
+    width:  100%;
+    height: 55%;
+}
+.left h1{
+    font-size: 10vw;
+    line-height: 11vw;
+}
+.left p{
+    font-size: 3vw;
+    width: 90%;
+    margin-top: 5vw;
+    margin-bottom: 8vw;
+}
+.content button{
+    padding: 3vw 6vw;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 3.5vw;
+}
+}
