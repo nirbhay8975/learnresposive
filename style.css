@@ -115,7 +115,7 @@ justify-content: center;
 box-shadow: -3px -3px 7px #ffffff42, 3px 3px 5px #000000ce;
 }
 .right {
-    height: 90%;
+    height: 100%;
     width: 45%;
   
     
@@ -140,7 +140,8 @@ box-shadow: -3px -3px 7px #ffffff42, 3px 3px 5px #000000ce;
     }
 
 .navbar i{
-    font-weight: 800;
+    font-size: 4vw;
+    font-weight: 1000;
 }
 .nav2 h4{
     font-size: 4vw;
